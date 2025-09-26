@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InkCrypt - PDF Digital Signatures</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🔐 InkCrypt</h1>
+            <p>Secure PDF Digital Signature System</p>
+        </header>
+
+        <div class="tabs">
+            <button class="tab-btn active" onclick="showTab('sign')">Sign PDF</button>
+            <button class="tab-btn" onclick="showTab('verify')">Verify PDF</button>
+            <button class="tab-btn" onclick="showTab('revoke')">Revoke</button>
+        </div>
+
+        <!-- Sign Tab -->
+        <div id="sign-tab" class="tab-content active">
+            <div class="upload-section">
+                <h3>Sign a PDF Document</h3>
+                <div class="upload-area" id="sign-upload">
+                    <div class="upload-text">
+                        <span class="upload-icon">📄</span>
+                        <p>Drag & drop PDF file or click to browse</p>
+                        <small>Maximum file size: 10MB</small>
+                    </div>
+                    <input type="file" id="sign-file" accept=".pdf" hidden>
+                </div>
+                <button id="sign-btn" class="btn btn-primary" disabled>Sign PDF</button>
+            </div>
+        </div>
+
+        <!-- Verify Tab -->
+        <div id="verify-tab" class="tab-content">
+            <div class="upload-section">
+                <h3>Verify PDF Authenticity</h3>
+                <div class="upload-area" id="verify-upload">
+                    <div class="upload-text">
+                        <span class="upload-icon">🔍</span>
+                        <p>Drag & drop signed PDF or click to browse</p>
+                        <small>Maximum file size: 10MB</small>
+                    </div>
+                    <input type="file" id="verify-file" accept=".pdf" hidden>
+                </div>
+                <button id="verify-btn" class="btn btn-secondary" disabled>Verify PDF</button>
+            </div>
+        </div>
+
+        <!-- Revoke Tab -->
+        <div id="revoke-tab" class="tab-content">
+            <div class="form-section">
+                <h3>Revoke Document</h3>
+                <div class="input-group">
+                    <input type="text" id="revoke-uuid" placeholder="Enter document UUID">
+                    <button id="revoke-btn" class="btn btn-danger">Revoke</button>
+                </div>
+                <small>⚠️ This action cannot be undone</small>
+            </div>
+        </div>
+
+        <!-- Results Section -->
+        <div id="results" class="results hidden">
+            <div id="result-content"></div>
+        </div>
+
+        <!-- Loading Spinner -->
+        <div id="loading" class="loading hidden">
+            <div class="spinner"></div>
+            <p>Processing...</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

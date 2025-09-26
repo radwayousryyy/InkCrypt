@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.env
+*.p12
+*.pfx
+certs/*.p12
+certs/*.pfx
+*.db
+node_modules/
+.DS_Store
